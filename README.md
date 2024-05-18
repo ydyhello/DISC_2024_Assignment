@@ -42,7 +42,13 @@ SVAMP Without CoT: `data\SVAMP\math_10kwithoutCoT.json`
 
 - MiniCPM
 
+SVAMP
+
 运行`test.py`
+
+TriviaQA 
+
+运行`python3 -m evaluation.triviaqa_evaluation --dataset_file data\TriviaQA\wikipedia-dev800.json --prediction_file result_example\triviaqa_result.json`
 
 - LLAMA
 
